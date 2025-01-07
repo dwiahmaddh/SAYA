@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website Pribadi Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .social-links a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+        .portfolio-item {
+            display: inline-block;
+            width: 30%;
+            margin: 10px 1%;
+            background-color: #fff;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 5px;
+        }
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .portfolio-item h3 {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Selamat datang di Website Pribadi Saya!</h1>
+    <p>DWI AHMAD DIYAUL HAQ / 23670030</p>
+</header>
+
+<nav>
+    <a href="#about">Tentang Saya</a>
+    <a href="#portfolio">Portofolio</a>
+    <a href="#contact">Kontak</a>
+</nav>
+
+<section id="about">
+    <h2>Tentang Saya</h2>
+    <div style="text-align: center;">
+        <img class="profile-img" src="profil.jpg" alt="Foto Profil">
+    </div>
+    <p>Halo! Nama saya [DWI AHMAD DIYAUL HAQ]. Saya adalah seorang [PEGAWAI TATA USAHA & GAMER], yang sangat tertarik dengan [GAME/FOTOGRAFI]. Saya memiliki pengalaman di bidang [GAME], dan selalu bersemangat untuk belajar hal baru dan berkolaborasi dengan orang-orang berbakat.</p>
+</section>
+
+<section id="portfolio">
+    <h2>Portofolio</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <!-- Item 1 -->
+        <div class="portfolio-item">
+            <img src="aku.jpg" alt="Proyek 1">
+            <h3>Proyek 1</h3>
+            <p>Foto saya.</p>
+        </div>
+        <!-- Item 2 -->
+        <div class="portfolio-item">
+            <img src="foto 2.jpg" alt="Proyek 2">
+            <h3>Proyek 2</h3>
+            <p>Foto saya.</p>
+        </div>
+        <!-- Item 3 -->
+        <div class="portfolio-item">
+            <img src="ke3.jpg" alt="Proyek 3">
+            <h3>Proyek 3</h3>
+            <p>Hobi saya.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Kontak</h2>
+    <p>Jika Anda ingin menghubungi saya, silakan isi formulir di bawah ini atau kirim email langsung ke <a href="dwiahmaddh@gmail.com">dwiahmaddh@gmail.com</a>.</p>
+    <div class="contact-form">
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Nama Anda" required>
+            <input type="email" name="email" placeholder="Email Anda" required>
+            <textarea name="message" rows="4" placeholder="Pesan Anda" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Website Pribadi Saya. Semua hak dilindungi.</p>
+    <div class="social-links">
+        <a href="https://www.tiktok.com/@d_ahd?_t=ZS-8ss9cxHMOds&_r=1" target="_blank">tiktok</a>
+        <a href="https://www.facebook.com/DwiAhmadDH?mibextid=ZbWKwL" target="_blank">facebook</a>
+        <a href="https://www.instagram.com/ahmad.dyhq_?igsh=MXNkZGVraWQ2MnZ3NA==" target="_blank">Instagram</a>
+    </div>
+</footer>
+
+</body>
+</html>
